@@ -42,7 +42,7 @@
 .bootstrap-iso *::after {
   box-sizing: border-box;
 }
-.bootstrap-iso html {
+.bootstrap-iso {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -60,7 +60,7 @@
 .bootstrap-iso section {
   display: block;
 }
-.bootstrap-iso body {
+.bootstrap-iso {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -9105,7 +9105,7 @@
   @page {
     size: a3;
   }
-  .bootstrap-iso body {
+  .bootstrap-iso {
     min-width: 992px !important;
   }
   .bootstrap-iso .container {
